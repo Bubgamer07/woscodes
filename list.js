@@ -1,5 +1,5 @@
 files = ["computer"]
 list = document.getElementById("list")
-for (file in files) {
+for (file of files) {
   list.innerHTML += "\n<a href=\""+file+"\">"+file+"</a>"
 }
